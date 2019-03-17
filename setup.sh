@@ -26,13 +26,26 @@ flatpak install flathub com.spotify.Client
 flatpak install flathub com.skype.Client
 flatpak install flathub com.discordapp.Discord
 cd /tmp
+git clone https://github.com/alexanderjeurissen/ranger_devicons
+cd ranger_devicons
+make
+sudo make install
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 yay -S reaper-bin i3lock-fancy chromium-widevine qt5-webengine-widevine arch-silence-grub-theme 
 yay -S cava ddgr mugshot properties-cpp timeshift tty-clock ulauncher urxvt-font-size-git
-yay -S xcursor-breeze vimix-gtk-themes-git vimix-icon-theme-git
+yay -S xcursor-breeze vimix-gtk-themes-git vimix-icon-theme-git nerd-fonts-source-code-pro
 
-
+#PASTING CONFIG FILES
+sudo rm -f -R ~/.config/ranger
+sudo rm -f ~/.bashrc
+sudo rm -f ~/.Xresources
+sudo rm -f ~/.Xdefaults
+cd /configs
+sudo mv .bashrc ~/
+sudo mv .Xresources ~/
+sudo mv .Xdefaults ~/
+sudo mv ranger ~/.config/
 
 #Mark Ripoll
