@@ -1,4 +1,8 @@
 #!/bin/bash
+
+sudo pacman -S haveged
+sudo systemctl enable haveged.service
+
 #KDE APPS
 #sudo pacman -S kde-applications transmission-qt
 
