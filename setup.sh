@@ -19,7 +19,7 @@ sudo systemctl enable haveged.service
 sudo pacman -S chromium gufw timeshift neofetch lolcat otf-ipafont ttf-roboto otf-fira-mono otf-fira-sans
 sudo pacman -S libreoffice-fresh libreoffice-fresh-ca libreoffice-fresh-es pavucontrol
 sudo pacman -S darktable kdenlive frei0r-plugins breeze-icons qt4 qt5 qt pyqt5-common
-sudo pacman -S vlc steam lutris ranger rxvt-unicode ristretto retroarch libretro
+sudo pacman -S vlc steam steam-native-runtime lutris ranger rxvt-unicode ristretto retroarch libretro
 sudo pacman -S telegram-desktop youtube-dl
 sudo pacman -S htop vim vim-runtime w3m
 sudo pacman -S texlive-most texlive-lang
