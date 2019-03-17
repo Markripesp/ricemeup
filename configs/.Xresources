@@ -35,7 +35,7 @@ URxvt*transparent:       false
 URxvt*depth: 32
 URxvt.background: [95]#1a1a1a
 
-URxvt.font: xft:Source Code Pro:pixelsize=14
+URxvt.font: xft:SauceCodePro Nerd Font Mono:pixelsize=14
 URxvt.letterSpace: 0
 
 *antialias:  false
