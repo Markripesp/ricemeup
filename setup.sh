@@ -15,7 +15,7 @@ sudo systemctl enable haveged.service
 #Thinkpad
 # yay -S thinkfan tlp
 
-#APPS
+#APPS 
 sudo pacman -S chromium gufw timeshift neofetch lolcat otf-ipafont ttf-roboto otf-fira-mono otf-fira-sans
 sudo pacman -S libreoffice-fresh libreoffice-fresh-ca libreoffice-fresh-es pavucontrol
 sudo pacman -S darktable kdenlive frei0r-plugins breeze-icons qt4 qt5 qt pyqt5-common
