@@ -18,6 +18,7 @@ sudo pacman -S darktable kdenlive frei0r-plugins breeze-icons qt4 qt5 qt pyqt5-c
 sudo pacman -S vlc steam lutris ranger rxvt-unicode ristretto retroarch libretro
 sudo pacman -S telegram-desktop youtube-dl
 sudo pacman -S htop vim vim-runtime w3m
+sudo pacman -S texlive-most texlive-lang
 sudo pacman -S cups hplip system-config-printer gtk3
 sudo pacman -S grub-customizer conky conky-manager
 sudo pacman -S flatpak
