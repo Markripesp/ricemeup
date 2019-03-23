@@ -14,11 +14,12 @@ sudo systemctl enable haveged.service
 #sudo pacman -S chrome-gnome-shell gnome-backgrounds gnome-bluetooth gnome-calculator gnome-calendar gnome-disk-utility gnome-font-viewer gnome-screenshot gnome-tweaks simple-scan transmission-gtk
 
 #APPS 
-sudo pacman -Sy chromium
+sudo pacman -Sy firefox
 sudo pacman -S gufw 
 sudo pacman -S neofetch
 sudo pacman -S lolcat 
-sudo pacman -S otf-ipafont ttf-roboto otf-fira-mono otf-fira-sans
+sudo pacman -S otf-ipafont ttf-roboto 
+sudo pacman -S otf-fira-mono otf-fira-sans
 sudo pacman -S libreoffice-fresh libreoffice-fresh-ca libreoffice-fresh-es 
 sudo pacman -S pavucontrol
 sudo pacman -S darktable kdenlive frei0r-plugins breeze-icons qt4 qt5 qt pyqt5-common
@@ -62,9 +63,9 @@ sudo rm -f ~/.bashrc
 sudo rm -f ~/.Xresources
 sudo rm -f ~/.Xdefaults
 cd /configs
-sudo cp bashrc ~/
-sudo cp Xresources ~/
-sudo cp Xdefaults ~/
+sudo cp bashrc ~/.bashrc
+sudo cp Xresources ~/.Xresources
+sudo cp Xdefaults ~/.Xdefaults
 sudo cp neofetch.conf ~/.config/neofetch/config.conf
 sudo mv sddm.conf /etc/
 sudo mv ranger ~/.config/
