@@ -57,17 +57,4 @@ sudo make install
 #Thinkpad
 # yay -S thinkfan tlp
 
-#PASTING CONFIG FILES
-sudo rm -f -R ~/.config/ranger
-sudo rm -f ~/.bashrc
-sudo rm -f ~/.Xresources
-sudo rm -f ~/.Xdefaults
-cd /configs
-sudo cp bashrc ~/.bashrc
-sudo cp Xresources ~/.Xresources
-sudo cp Xdefaults ~/.Xdefaults
-sudo cp neofetch.conf ~/.config/neofetch/config.conf
-sudo mv sddm.conf /etc/
-sudo mv ranger ~/.config/
-
 #Mark Ripoll
